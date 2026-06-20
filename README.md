@@ -89,12 +89,4 @@ py consumer/difference_experiment.py --report # read the difference
 ## Roadmap (real, scoped)
 - [ ] Flash node 3 (kitchen) once it enumerates on USB — current blocker: only 2 of 3 boards show as serial devices (likely a power-only cable).
 - [ ] Move from 1 Hz summary to ~80 Hz windowed capture to unlock respiration.
-- [ ] Multi-node fusion for room-level localization (research cast 2 in progress — time-sync across independent ESP32 clocks is the hard part; raw CSI phase is unusable without sanitization).
-- [ ] Calibration/baseline-drift handling for an empty-room reference that survives furniture changes.
-
-## Stack
-ESP32-D0WD-V3 · Arduino-ESP32 3.3.10 · PubSubClient · mosquitto MQTT · Python (paho-mqtt) · esptool/arduino-cli
-
----
-
-*Built local-first on principle: the field reads the air, holds what it sees, and nothing leaves the box.*
+- [ ] Multi-node fusion for room-level localization (research cast 2 in progress — time-sync across independent ESP32 clocks is the hard part; raw CSI phase is unusable without sanitization
