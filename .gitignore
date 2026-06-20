@@ -1,0 +1,14 @@
+# never commit real credentials
+secrets.h
+firmware/**/secrets.h
+
+# build artifacts
+build/
+*.bin
+*.elf
+__pycache__/
+*.pyc
+
+# runtime logs
+docs/hipx/*.jsonl
+docs/hipx/*.meta.json
