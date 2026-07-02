@@ -1,6 +1,10 @@
 # never commit real credentials
 secrets.h
+secrets.h.bak.*
+secrets.h.*
 firmware/**/secrets.h
+firmware/**/secrets.h.bak.*
+firmware/**/secrets.h.*
 
 # build artifacts
 build/

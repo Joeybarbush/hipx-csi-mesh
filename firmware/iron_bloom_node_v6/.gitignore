@@ -1,0 +1,9 @@
+# IRON BLOOM v6 -- never commit real secrets
+secrets.h
+secrets.h.bak.*
+secrets.h.*
+*.bin
+*.elf
+build/
+.pio/
+.vscode/

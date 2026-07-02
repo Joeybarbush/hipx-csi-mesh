@@ -702,4 +702,3 @@ void loop() {
   if (now - lastVox         >= I_VOX)         { lastVox         = now; voxPulse();        }
   if (now - lastHeartbeat   >= I_HEARTBEAT)   { lastHeartbeat   = now; heartbeatPulse();  }
 }
-                                       
